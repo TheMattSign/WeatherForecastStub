@@ -49,6 +49,23 @@ namespace TestWebApplication.Services
             return weatherForecasts;
         }
 
+        public string Test(Guid id)
+        {
+            var entity = GetEntityById(id);
+            entity.TemperatureCelsius = -999;
+
+            _dbContext.SaveChanges();
+
+            var list = _dbContext.WeatherForecasts.Select(x => x.TemperatureCelsius == -999).ToArray();
+            if (list.Length > 0)
+            {
+                return "Update took effect";
+            } else
+            {
+                return "Update didn't yet";
+            }
+        }
+
         public void Update(Guid id, WeatherForecast updateData)
         {
             var entity = GetEntityById(id);

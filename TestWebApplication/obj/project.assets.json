@@ -5749,11 +5749,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mmiddleton\\source\\repos\\TestWebApplication\\TestWebApplication\\TestWebApplication.csproj",
+      "projectUniqueName": "C:\\Users\\mmiddleton\\Documents\\GitHub\\WeatherForecastStub\\TestWebApplication\\TestWebApplication.csproj",
       "projectName": "TestWebApplication",
-      "projectPath": "C:\\Users\\mmiddleton\\source\\repos\\TestWebApplication\\TestWebApplication\\TestWebApplication.csproj",
+      "projectPath": "C:\\Users\\mmiddleton\\Documents\\GitHub\\WeatherForecastStub\\TestWebApplication\\TestWebApplication.csproj",
       "packagesPath": "C:\\Users\\mmiddleton\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mmiddleton\\source\\repos\\TestWebApplication\\TestWebApplication\\obj\\",
+      "outputPath": "C:\\Users\\mmiddleton\\Documents\\GitHub\\WeatherForecastStub\\TestWebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mmiddleton\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5813,7 +5813,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }

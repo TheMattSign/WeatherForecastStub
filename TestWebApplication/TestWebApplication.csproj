@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <StartupObject>TestWebApplication.Program</StartupObject>
+    <UserSecretsId>b8fed294-fd30-4802-b352-ea0d2b05ccac</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
